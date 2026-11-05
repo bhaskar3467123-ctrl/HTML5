@@ -1,0 +1,21 @@
+.container1{
+    text-align: center;
+    color: blue;
+    font-size: 10px;
+}
+.container2{
+    text-align: left;
+    color: red;
+    font-size: 20px;
+}
+.container3{
+    text-align: right;
+    color: yellow;
+    font-size: 30px;
+}
+.container4{
+    
+    text-align: left;
+    color: brown;
+    font-size: 40px;
+}
