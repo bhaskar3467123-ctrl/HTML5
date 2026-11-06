@@ -1,0 +1,80 @@
+/* footer.css - W3Schools Footer - For Your HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background: #fff;
+}
+
+footer {
+    background-color: #282A35;
+    color: white;
+    width: 100%;
+    padding: 50px 0 30px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.col h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.col h5 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #DDDDDD;
+    cursor: pointer;
+}
+
+.col h5:hover {
+    color: #FFF4A3;
+}
+
+/* Bottom copyright area */
+.bottom-bar {
+    max-width: 1100px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+    padding: 0 20px;
+    border-top: 1px solid #3a3c4a;
+    padding-top: 30px;
+}
+
+.copyright {
+    font-size: 11px;
+    line-height: 17px;
+    color: #DDDDDD;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .footer {
+        flex-wrap: wrap;
+        padding: 0 30px;
+        gap: 30px;
+        text-align: left;
+    }
+    .col {
+        width: 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    .col { width: 100%; }
+    .footer { text-align: left; }
+}
